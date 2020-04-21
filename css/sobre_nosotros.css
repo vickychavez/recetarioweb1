@@ -1,0 +1,258 @@
+#contenedor{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding:  0px;
+}
+#cabecera{
+	width: 100%;
+	height: 15%;
+	margin-right: 1px;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+nav ul li:hover > ul {
+    display:block;
+    list-style:none;
+}
+.lista{
+    margin-bottom: 0px;
+    list-style: none;
+    border: black solid 1px;
+   	width: 215px;
+    height: 45px;
+    text-align: center;
+    position: relative;
+    top:-1px;
+}
+.lista:hover{
+  	width: 220px;
+    height: 46px;
+    background-color:orange; 
+}
+  a {
+    font-family: Brush Script MT;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+
+}
+.lista ul li{
+    border: 1px solid gray;
+    width: 180px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    font-size: 20px;
+}
+.tipos_de_comida:hover{
+    color:green;
+}
+button{
+	width: 215px;
+    height: 45px;
+
+}
+button:hover{
+    width: 210px;
+    height: 40px;
+    background-color:orange; 
+}
+header{
+	height: 80%;
+	margin: 0 auto;
+	padding: 2px;
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	text-decoration: underline;
+}
+#cont1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+header img{
+	margin-left: 10%;
+}
+.barraCabecera{
+	background-color: #ff9408;
+	padding: 20px;
+	height: 40%;
+}
+nav{
+	height: 5%;
+	padding: 2px;
+	border: solid black 1px;
+	display: flex;
+	justify-content: space-around;
+}
+.nav{
+    border:1px solid black;
+    font-family:"Brush script MT";
+    font-size:30px;
+}
+#pricipal{
+	height: 30%;
+	width: 80%;
+	margin: 0 auto;
+	padding: 2px;
+}
+#comida{
+	height: 10%;
+	margin:  0 auto;
+	padding: 2px;
+	border: 2px;
+	color: black;
+	text-decoration: underline;
+}
+#seccion{
+	height: 80%;
+	width: 99%;
+	margin: 0 auto;
+	padding: 2px;
+	flex-direction: row;
+	display: flex;
+	flex-wrap: nowrap;
+}
+#seccion1{
+	height: 100%;
+	width: 49%;
+	margin: 0 auto;
+	padding: 2px;
+	border: 2px solid black;
+	justify-content: center;
+}
+#seccion2{
+	height: 100%;
+	width: 49%;
+	margin: 0 auto;
+	padding: 2px;
+	border: 2px solid black;
+}
+aside{
+	width: 20%;
+	margin: 0 auto;
+	border: solid black 2px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+}
+#grandote{
+	height: 50%
+	margin: 0 auto;
+	padding: 2px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+footer{
+	height: 30%;
+	margin: 0 auto;
+	padding: 2px;
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+footer button{
+	background-color: yellow;
+	margin: -3px;
+	border: solid black 2px;
+	font-size: 20px;
+	padding: 5px;
+}
+nav button{
+	margin-left: 2%;
+	margin: 10px;
+	border: none;
+	background-color: white;
+	font-size: 17px;
+}
+.fuente{
+	font-family: "Brush script MT";
+}
+.tamano{
+	width: 90px;
+	height: 90px;
+}
+header input{
+	margin-right: 20px;
+	font-family: "Brush script MT";
+	font-size: 20px;
+	padding: 4px;
+}
+aside img{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+@media screen and (max-width: 576px){
+	header{
+		flex-direction: column;
+	}
+	header img{
+		width: 200px;
+		height: 200px;
+	}
+	header input{
+		width: 250px;
+		height: 25px;
+	}
+	nav{
+		flex-direction: column;
+		text-align: center;
+		font-size: 14pt;
+	}
+	#pricipal{
+		flex-direction: column;
+	}
+	#pricipal  section{
+		width: 100%
+	}
+	#pricipal  aside{
+		width: 100%;
+		flex-direction: column;
+	}
+	#pricipal section div article{
+		flex-direction: column;
+		
+	}
+	#principal section div article .internoimagenes{
+		width: 250px;
+		margin: 0 auto;
+	}
+	#pricipal aside{
+		flex-direction: column;
+
+	}
+	footer{
+		flex-direction: column;
+	}
+	footer div h4{
+		flex-direction: column;
+		text-align: center;
+		font-size: 14pt;
+	}
+	footer .fuente  a{
+		width: 100%;
+		text-align: center;
+		flex-direction: column;
+	}
+}
+
+
+

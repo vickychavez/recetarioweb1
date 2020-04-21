@@ -1,0 +1,296 @@
+#container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px
+
+}
+
+header {
+    border:1px solid black;
+    background-color: red;
+    margin: 2px;
+    padding: 2px;
+
+
+    /*display flex*/
+    display:flex;/*activacion*/
+    flex-wrap:nowrap;/*desbordamiento*/
+    flex-direction:row;/*direccion*/
+    justify-content: space-around; /*alineacion en x*/
+    align-items: center;
+}
+h1{
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+header img{
+    height:100px;
+    width:200px;
+}
+
+nav{
+    border:1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+nav ul li:hover > ul {
+    display:block;
+    list-style:none;
+}
+.lista{
+    margin-bottom: 0px;
+    list-style: none;
+    border: gray solid 1px;
+    width: 180px;
+    height: 33px;
+    text-align: center;
+    position: relative;
+    top:-11px;
+}
+.lista:hover{
+    width: 185px;
+    height: 38px;
+    background-color:orange; 
+}
+  a {
+    font-family: Brush Script MT;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+
+}
+.lista ul li{
+    border: 1px solid gray;
+    width: 180px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    font-size: 20px;
+}
+.tipos_de_comida:hover{
+    color:green;
+}
+button:hover{
+    width: 210px;
+    height: 40px;
+    background-color:orange; 
+}
+.espacio1{
+    position: relative;
+    top:-2px;
+    width: 100%;
+    height: 20px;
+    background-color: orange; 
+    padding: 0px;
+    margin:0px;
+}
+
+input {
+    background-color: white;
+
+    width: 300px;
+    border:3px solid black;
+}
+
+button { 
+
+    font-size: 30px;
+    font-family:Brush Script MT;
+    border:1px solid gray;
+    background-color:white;
+    color:black;
+    margin:5px;
+    padding:1px;
+    width: 200px;
+    height: 35px;
+}
+
+
+#principal section {
+    width: 80%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+        
+}
+#principal aside{
+    width: 20%;
+    height: auto;
+    margin: 5px;    
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ p{
+   height: 50px;
+      font-family:Brush Script MT;
+}
+
+
+
+.imgvistas img{
+    width: 200px;
+    height: 150px;
+    margin:1px;
+}
+
+.textovistas{
+   width: 200px;
+   margin-left: 20px;
+
+}
+
+.espacio{
+    position: relative;
+    top: -105px;
+    width: 100%;
+    height: 20px;
+    background-color: orange; 
+    padding: 0px;
+    margin:0px;
+}
+
+footer{
+    position: relative;
+    top:-105px;
+    bottom: 30px
+    height:70px;
+    background-color:red; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones{
+  
+    display: flex;
+    align-items: center;    
+}
+.derechos{
+    display: flex;
+    align-items: center;
+}
+
+footer button{
+    border:0px;
+    padding:0px;
+    margin:0px;
+    width: 200px;
+    height: 30px;
+    border-right:1px solid black;
+    background-color:orange ; 
+
+}
+#principal section article div a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #FF4242;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+#principal section article div a:hover{
+    background-color: #F0F2EB;
+    border: 2px solid black;
+    color: black;
+}
+#principal section article{ 
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedorSecciones1
+{
+    height: auto;
+    width: 30%;
+    margin: 0 auto;
+    padding: 2px;
+    border: 2px solid black;
+   
+
+}
+.contenedorSecciones2
+{
+    height: auto;
+    width: 30%;
+    margin: 0 auto;
+    padding: 2px;
+    border: 2px solid black;
+    justify-content: center;
+   
+}
+#principal section article .imgvistas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+#principal aside div img{
+    width: 40%;
+}
+#principal section div article .textovistas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#principal section article div img{
+    width: 75%;
+    margin: 5px auto;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+#principal aside .siguenos img{
+    border: 3px solid white;
+    margin: 3px auto;
+    padding: 3px;
+    border-radius: 10px;
+}
+#principal aside .siguenos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+
+
+
